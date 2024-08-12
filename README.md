@@ -1,7 +1,7 @@
 # iGPs
 Code implementing integrated Gaussian Processes (iGPs) from the paper: 
 
-    'Integrated Gaussian Processes for Tracking', Goodyer, Godsill, 2024
+'Integrated Gaussian Processes for Tracking', Goodyer, Godsill, 2024
 
 ––––––––
 
