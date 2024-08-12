@@ -1,0 +1,1 @@
+This is blank. Delete it. It exists to allow an empty folder to exist on GitHub. If you download this repo, you regain the seemingly simple ability to have empty folders.
