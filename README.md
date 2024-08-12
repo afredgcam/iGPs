@@ -1,5 +1,6 @@
 # iGPs
-Code implementing integrated Gaussian Processes (iGPs) from the paper: 'Integrated Gaussian Processes for Tracking', Goodyer, Godsill, 2024
+Code implementing integrated Gaussian Processes (iGPs) from the paper: 
+'Integrated Gaussian Processes for Tracking', Goodyer, Godsill, 2024
 
 Scripts:
 'functions.py' contains required functions for the included scripts.
