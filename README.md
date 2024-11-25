@@ -1,4 +1,4 @@
-# iGPs NOT CORRECT
+# iGPs NOT CORRECT CODE: CHANGE LATER
 Code implementing integrated Gaussian Processes (iGPs) from the paper: 
 
 'Integrated Gaussian Processes for Tracking', Goodyer, Godsill, 2024
