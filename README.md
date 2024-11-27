@@ -1,7 +1,7 @@
-# iGPs NOT CORRECT CODE: CHANGE LATER
+# iGPs
 Code implementing integrated Gaussian Processes (iGPs) from the paper: 
 
-'Integrated Gaussian Processes for Tracking', Goodyer, Godsill, 2024
+'Integrated Gaussian Processes for Tracking', Lydeard, Ahmad, Godsill, 2024
 
 ––––––––
 
@@ -9,14 +9,14 @@ Scripts:
 
 'functions.py' contains required functions for the included scripts.
     
-'1d_track_ex.py' replicates Figure 1, the two 1D curves from the SE model and the second iSE model.
+'1d_track_ex.py' replicates Figure 1, the two 1D curves from the SE and iSE-2 models.
     
-'inference.py' executes the SE model with the first Markovian assumption and the iSE model with the second. It produces Figure 3, on the synthetic data provided in the 'Data' folder, and saves the filtering estimates and variances in the 'Results' folder.
+'final_double_swap.py' executes the synthetic data experiment, running iSE-1, iSE-2 and SE on 100 data sets generated from each model type, printing the average RMSE at the end.
 
 ––––––––
 
 Folders:
 
-'Data' contains the synthetic data 'written.npz', its plot 'written.png', and a script to reproduce both: 'written_data.py'.
+'Data' contains the synthetic data, and the code used to generate it, as well as plots for the first data sets from each model (Figure 4).
     
-'Results' starts with a placeholder document but contains filtering results when 'inference.py' is run.
+'Plots' contains inference plots (i.e., of tracker performance) on those first data sets (Figure 5).
